@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Crescent Homes Real Estate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1d2a2f;
+    --muted: #5d6b70;
+    --bg: #f7f4ee;
+    --card: #ffffff;
+    --accent: #0f5c4d;
+    --accent-soft: #e3efe9;
+    --gold: #c89b3c;
+    --line: #e6e0d4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Inter", system-ui, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+  header {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .logo { font-family: "Fraunces", serif; font-weight: 700; font-size: 1.35rem; color: var(--accent); }
+  .logo span { color: var(--gold); }
+  nav a { color: var(--ink); text-decoration: none; margin-left: 20px; font-weight: 500; font-size: 0.95rem; }
+  nav a:first-child { margin-left: 0; }
+  .hero { padding: 72px 0 56px; }
+  .hero h1 {
+    font-family: "Fraunces", serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.15;
+    margin: 0 0 16px;
+    max-width: 720px;
+  }
+  .hero p { font-size: 1.1rem; color: var(--muted); max-width: 600px; margin: 0 0 28px; }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .areas { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+  .areas span {
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  section { padding: 48px 0; }
+  h2 { font-family: "Fraunces", serif; font-size: 1.8rem; margin: 0 0 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  .tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .price { font-family: "Fraunces", serif; font-size: 1.3rem; color: var(--accent); margin-top: 10px !important; }
+  details {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 10px 0 0; color: var(--muted); }
+  .contact { background: var(--accent); color: #fff; border-radius: 18px; padding: 36px; }
+  .contact h2 { color: #fff; }
+  .contact p { margin: 4px 0; }
+  footer { padding: 32px 0; text-align: center; color: var(--muted); font-size: 0.85rem; }
+  @media (max-width: 600px) {
+    nav a { margin-left: 12px; font-size: 0.9rem; }
+    .hero { padding: 48px 0 36px; }
+    .contact { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="logo">Crescent <span>Homes</span></div>
+    <nav>
+      <a href="#listings">Listings</a>
+      <a href="#services">Services</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <h1>Buy, sell and rent property in Lahore with people who know the city.</h1>
+    <p>Houses, apartments and plots across Lahore's most popular areas. Our agents speak English, Urdu and Punjabi, and we work with overseas Pakistanis every week.</p>
+    <a class="btn" href="#contact">Book a viewing</a>
+    <div class="areas">
+      <span>DHA (all phases)</span><span>Gulberg</span><span>Model Town</span><span>Johar Town</span><span>Bahria Town</span>
+    </div>
+  </div>
+
+  <section id="listings">
+    <div class="wrap">
+      <h2>Featured listings</h2>
+      <div class="grid">
+        <div class="card"><div class="tag">For sale</div><h3>DHA Phase 6</h3><p>1 kanal house · 5 bedrooms</p><p class="price">PKR 9.5 crore</p></div>
+        <div class="card"><div class="tag">For rent</div><h3>Gulberg III</h3><p>Apartment · 3 bedrooms · 2,100 sq ft</p><p class="price">PKR 250,000 / month</p></div>
+        <div class="card"><div class="tag">For sale</div><h3>Bahria Town, Sector C</h3><p>10 marla house · 4 bedrooms</p><p class="price">PKR 3.8 crore</p></div>
+        <div class="card"><div class="tag">For sale</div><h3>Johar Town</h3><p>5 marla plot</p><p class="price">PKR 1.6 crore</p></div>
+        <div class="card"><div class="tag">For rent</div><h3>Model Town</h3><p>1 kanal house · 6 bedrooms</p><p class="price">PKR 450,000 / month</p></div>
+      </div>
+      <p style="color:var(--muted);font-size:0.9rem;margin-top:16px;">Prices can change. Please confirm the latest price and availability with an agent.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="card"><h3>Buying</h3><p>Matching listings within one working day, plus help with the full transfer and paperwork. Commission: 1% of the sale price, paid at transfer.</p></div>
+        <div class="card"><h3>Selling</h3><p>Free listing and a free price estimate. We visit, confirm details and list within three working days. Fee: 1% of the sale price, only when sold.</p></div>
+        <div class="card"><h3>Renting</h3><p>Houses and apartments (no commercial property). Fee: half of one month's rent, paid once when the agreement is signed.</p></div>
+        <div class="card"><h3>Overseas clients</h3><p>Video-call viewings on WhatsApp, and support for buying through a family member with power of attorney.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Frequently asked questions</h2>
+      <details><summary>How do I book a viewing?</summary><p>Send us the property you're interested in, your name, your phone number and two or three times that suit you. An agent will confirm on WhatsApp. Viewings run Monday to Saturday, 10 am to 6 pm.</p></details>
+      <details><summary>Which documents do I need to buy?</summary><p>A valid CNIC (or NICOP for overseas Pakistanis), two passport-size photos and proof of payment. Some societies ask for more; your agent will give you the full list.</p></details>
+      <details><summary>How much deposit is needed to rent?</summary><p>Usually one or two months' rent as security, plus one month's rent in advance. Rental agreements are normally 11 months and can be renewed.</p></details>
+      <details><summary>Do you arrange home loans?</summary><p>No, but we can share contact details of banks our past clients have used.</p></details>
+      <details><summary>Do you deal in plot files?</summary><p>No. For safety reasons, we only deal in properties with a confirmed plot number and possession.</p></details>
+      <details><summary>Do you cover other cities?</summary><p>No, we only handle properties in Lahore.</p></details>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <h2>Visit or message us</h2>
+        <p><strong>Office:</strong> 45-B, Main Boulevard, Gulberg III, Lahore</p>
+        <p><strong>Hours:</strong> Monday to Saturday, 10:00 am to 7:00 pm (closed Sundays and public holidays)</p>
+        <p><strong>Phone / WhatsApp:</strong> 0300-0000000</p>
+        <p><strong>Email:</strong> info@crescenthomes.example</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Practice website for a fictional business, built for chatbot testing. Crescent Homes Real Estate is not a real company.</div>
+</footer>
+
+</body>
+</html>
